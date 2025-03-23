@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+/*css proyecto*/
+
+/* src/App.css */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+  background-color: #f9f9f9;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 20px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+}
